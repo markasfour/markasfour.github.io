@@ -46,7 +46,7 @@ body {
 }
 
 #logo-container {
-	width: 300px;
+	width: 250px;
 	height: 30px;
 	text-align: left;
 	font-family: "Patua One", cursive;
@@ -121,7 +121,7 @@ body {
 #projects {
 	display: block;
 	margin: 0 auto;
-	width: 90%;
+	width: 90%;	
 	font-family: "Patua One", cursive;
 	color: #FFBF00;
 	font-size: 30px;
@@ -133,27 +133,24 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	box-shadow:1px 1px 1px #222222;
 	width: 90%;
-	height: 75px;
+	height: 400px;
 	display: block;
 	margin: 0 auto;
 }
 
-$c1: #cee5ea;
-$c2: #efdfda;
-
 .slider {
     width: auto;
-    margin: 30px 50px 50px;
+    margin: 5px 50px 50px;
 }
 
 .slick-slide {
-    background: $c1;
-    color: white;
+    background-color: #383A3B;
     padding: 20px 0;
     font-size: 30px;
-    font-family: "Arial", "Helvetica";
-    text-align: center;
-    
+    font-family: Arial, sans-serif;
+	text-align: center;
+	margin: 0 auto;
+
     img { display: inline-block; }
 }
 
@@ -163,11 +160,7 @@ $c2: #efdfda;
 }
 
 .slick-dots {
-    bottom: -40px;
-}
-
-.slick-slide:nth-child(odd) {
-     background: $c2;
+    bottom: -50px;
 }
 
 #footer {
