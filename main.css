@@ -1,15 +1,14 @@
 body {
     background-color: #000545;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-/*#bg-canvas {
-	position: absolute;
-	width: 100%;
-}*/
-
 #main-container {
-	position: absolute;
+	position: relative;
 	width: 85%;
+	height: 100%;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -27,7 +26,7 @@ body {
 	width: 90%;
 	height: 75px;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 5px;
 }
 
 #top-header {
@@ -74,15 +73,20 @@ body {
 
 #nav-link {
 	text-align: center;
+	display: inline-block;
 	margin: 0 auto;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 #nav-link > a {
 	text-decoration: none;
 	font-family: Arial, sans-serif;
-	color: #000000;
+	color: #222222;
 	font-size: 12px;
-	text-shadow: 1px 1px 1px #222222;
+	text-shadow: 1px 1px 1px #444444;
 }
 
 #intro-header {
@@ -118,6 +122,35 @@ body {
 	text-shadow: 1px 1px 1px #222222;
 }
 
+#experience {
+	display: block;
+	margin: 0 auto;
+	width: 90%;	
+	font-family: "Patua One", cursive;
+	color: #FFBF00;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px #222222;
+}
+
+#content-container-center {
+	background-color: #383A3B;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow:1px 1px 1px #222222;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+#content-container-center > div {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+
 #projects {
 	display: block;
 	margin: 0 auto;
@@ -151,7 +184,7 @@ body {
 	text-align: center;
 	margin: 0 auto;
 
-    img { display: inline-block; }
+    img { display: inline-block;}
 }
 
 .slick-prev:before, 
@@ -176,5 +209,6 @@ body {
 b {
 	font-family: "Patua One", cursive;
 	color: #FFBF00;
+	font-size: 17px;
 	text-shadow: 1px 1px 1px #222222;
 }

@@ -1,18 +1,23 @@
 $(".slider").slick({
-
-    autoplay: true,
-    dots: true,
-    //customPaging : function(slider, i) {
-    //    var thumb = $(slider.$slides[i]).data('thumb');
-    //    return '<a><img src="'+thumb+'"></a>';
-    //},
-	
-    responsive: [{ 
-        breakpoint: 500,
-        settings: {
-            arrows: false,
-            infinite: false,
-        } 
-    }]
-});
-
+	dots: true,
+	arrows: true,
+	autoplay: true,
+	autoplaySpeed: 8000,
+	infinite: true,
+	speed: 500,
+	slide: 'div',
+	cssEase: 'linear',
+	responsive: [{
+		breakpoint: 800,
+		settings: {
+			dots: true,
+			arrows: false,
+			autoplay: true,
+			autoplaySpeed: 8000,
+			infinite: true,
+			speed: 500,
+			slide: 'div',
+			cssEase: 'linear'
+		}
+	}]
+});	
