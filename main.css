@@ -238,6 +238,7 @@ body {
 }
 
 #footer {
+	padding: 15px;
 	text-align: center;
 	display: block;
 	margin: 0 auto;
