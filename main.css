@@ -34,7 +34,7 @@ body {
     border-radius: 0 0 5px 5px;
     box-shadow: 1px 1px 1px #222222;
     width: 100%;
-    height: 50px;
+    height: 55px;
     margin: 0 auto;
     display: block;
 }
@@ -71,10 +71,16 @@ body {
 	box-shadow: 1px 3px 1px #FFBF00;
 }
 
+#nav-link-container {
+	width: 90%;
+	display: table;
+	margin: 0 auto;
+}
+
 #nav-link {
 	text-align: center;
-	display: inline-block;
-	margin: 0 auto;
+	display: table-cell;	
+	vertical-align: middle;
 	padding-top: 0;
 	padding-bottom: 0;
 	padding-left: 5px;
@@ -120,6 +126,7 @@ body {
 	color: #ffffff;
 	font-size: 16px;
 	text-shadow: 1px 1px 1px #222222;
+	padding: 5px;
 }
 
 #experience {
@@ -141,7 +148,7 @@ body {
 	margin: 0 auto;
 }
 
-#content-container-center > div {
+#content-container-center-row > div {
 	display: table-cell;
 	vertical-align: middle;
 	padding: 5px;
@@ -149,7 +156,17 @@ body {
 	padding-bottom: 5px;
 }
 
+#content-container-center-row > div > a:link {
+	color: #FFBF00;
+}
 
+#content-container-center-row > div > a:visited {
+	color: #FFBF00;
+}
+
+#content-container-center-row > div > a:active {
+	color: #FFBF00;
+}
 
 #projects {
 	display: block;
@@ -166,25 +183,29 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	box-shadow:1px 1px 1px #222222;
 	width: 90%;
-	height: 400px;
+	height: 370px;
 	display: block;
 	margin: 0 auto;
 }
 
 .slider {
     width: auto;
-    margin: 5px 50px 50px;
+    margin: 10px 0;
 }
 
 .slick-slide {
-    background-color: #383A3B;
-    padding: 20px 0;
+    background-color: #0E6078;
     font-size: 30px;
     font-family: Arial, sans-serif;
 	text-align: center;
 	margin: 0 auto;
 
-    img { display: inline-block;}
+	border-radius: 5px;
+	border: 4px solid #FFBF00;
+	box-shadow: 1px 1px 1px #222222;
+	margin: 10px;
+
+    img { display: table;}
 }
 
 .slick-prev:before, 
@@ -194,6 +215,26 @@ body {
 
 .slick-dots {
     bottom: -50px;
+}
+
+#skills {
+	display: block;
+	margin: 0 auto;
+	width: 90%;	
+	font-family: "Patua One", cursive;
+	color: #FFBF00;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px #222222;
+}
+
+#contact {
+	display: block;
+	margin: 0 auto;
+	width: 90%;	
+	font-family: "Patua One", cursive;
+	color: #FFBF00;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px #222222;
 }
 
 #footer {

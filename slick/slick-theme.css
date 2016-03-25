@@ -97,11 +97,11 @@
 }
 .slick-prev:before
 {
-    content: '\f0d9';
+    content: '\f137';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '\f0da';
+    content: '\f137';
 }
 
 .slick-next
@@ -115,11 +115,11 @@
 }
 .slick-next:before
 {
-    content: "\f0da";
+    content: "\f138";
 }
 [dir='rtl'] .slick-next:before
 {
-    content: "\f0d9";
+    content: "\f138";
 }
 
 /* Dots */
@@ -187,7 +187,7 @@
 {
     /*font-family: 'slick';*/
     font-family: 'FontAwesome';
-    font-size: 6px;
+    font-size: 10px;
     line-height: 20px;
 
     position: absolute;
