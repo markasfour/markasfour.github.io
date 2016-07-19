@@ -1,6 +1,6 @@
 $(".slider-projects").slick({
 	centerMode: true,
-	centerPadding: '60px',
+	slidesToShow: 3,
 	variableWidth: true,
 	dots: true,
 	arrows: true,
@@ -8,21 +8,18 @@ $(".slider-projects").slick({
 	autoplaySpeed: 8000,
 	infinite: true,
 	speed: 500,
-	slide: 'div',
-	cssEase: 'linear',
 	responsive: [{
 		breakpoint: 800,
 		settings: {
 			centerMode: false,
+			slidesToShow: 1, 
+			variableWidth: false,
 			dots: true,
-			variableWidth: true,
 			arrows: false,
 			autoplay: true,
 			autoplaySpeed: 8000,
 			infinite: true,
 			speed: 500,
-			slide: 'div',
-			cssEase: 'linear'
 		}
 	}]
 });	
