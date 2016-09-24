@@ -13,21 +13,18 @@ body {
 #load_screen {
 	width: 100%;
 	height: 100%;
-	background: #8A8A8A;
-	background-image: linear-gradient(to right, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));
+	background: #FFFFFF;
 	z-index: 9999;
 	position: fixed;
 }
 
 #loading {
-	width: 50%;
+	width: 100%;
 	height: 5px;
 	position: relative;
-	margin: 0 auto;
-	top: 40%;
+	top: 45%;
 	text-align: center;
 	font-size: 25px;
-	text-shadow: 0 0 20px #FFFFFF;
 }
 
 #main-container {
@@ -36,7 +33,7 @@ body {
 	top: 0;
 	bottom: 0;
 	left: 0;
-    right: 0;
+	right: 0;
 	margin: 0 auto;
 	box-shadow: 0 0 100px #00A3A3;
 }
@@ -118,7 +115,7 @@ body {
 }
 
 #intro-header {
-	width: 90%;
+	width: 80%;
 	display: table;
 	margin: 0 auto;
 	padding: 150px 0;
@@ -128,23 +125,24 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 	padding: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	text-align: center;
 }
 
 #me {
 	border-radius: 50px;
 	border: 4px solid #FFBF00;
 	box-shadow: 1px 1px 1px #222222;
+	vertical-align: middle;
 }
 
 #content-container {
 	background-color: rgba(56, 58, 59, .9);
-	border-radius: 5px 5px 5px 5px;
+	border-radius: 5px;
 	box-shadow: 1px 1px 1px #222222;
 }
 
 #content-text {
+	width: 100%;
 	font-family: Arial, sans-serif;
 	color: #ffffff;
 	font-size: 16px;
@@ -152,11 +150,17 @@ body {
 	padding: 5px;
 }
 
+#welcome {
+	font-family: "Patua One", Impact, Charcoal, sans-serif;
+	color: #FFBF00;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px #222222;
+}
+
 #experience {
 	background-color: #8A8A8A;
 	background-image: linear-gradient(to right, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));
 	width: 100%;
-	height: 450px;
 	padding: 30px 0;
 }
 
@@ -164,7 +168,7 @@ body {
 	display: block;
 	margin: 0 auto;
 	padding: 10px 0;
-	width: 90%;	
+	width: 80%;	
 	font-family: "Patua One", Impact, Charcoal, sans-serif;
 	color: #FFBF00;
 	font-size: 30px;
@@ -175,7 +179,7 @@ body {
 	background-color: rgba(56, 58, 59, .9);
 	border-radius: 5px 5px 5px 5px;
 	box-shadow:1px 1px 1px #222222;
-	width: 90%;
+	width: 80%;
 	display: block;
 	margin: 0 auto;
 }
@@ -204,7 +208,7 @@ body {
 	display: block;
 	margin: 0 auto;
 	padding: 20px 0 10px;
-	width: 90%;	
+	width: 80%;	
 	font-family: "Patua One", Impact, Charcoal, sans-serif;
 	color: #FFBF00;
 	font-size: 30px;
@@ -215,7 +219,7 @@ body {
 	background-color: rgba(56, 58, 59, .9);
 	border-radius: 5px 5px 5px 5px;
 	box-shadow:1px 1px 1px #222222;
-	width: 90%;
+	width: 80%;
 	height: 370px;
 	display: block;
 	margin: 0 auto;
@@ -261,7 +265,7 @@ body {
 #skills-text {
 	display: block;
 	margin: 0 auto;
-	width: 90%;	
+	width: 80%;	
 	font-family: "Patua One", Impact, Charcoal, sans-serif;
 	color: #FFBF00;
 	font-size: 30px;
@@ -272,7 +276,7 @@ body {
 	display: block;
 	margin: 0 auto;
 	padding: 20px 0 10px;
-	width: 90%;	
+	width: 80%;	
 	font-family: "Patua One", Impact, Charcoal, sans-serif;
 	color: #FFBF00;
 	font-size: 30px;
@@ -291,6 +295,20 @@ body {
 }
 
 b {
+	font-family: "Patua One", Impact, Charcoal, sans-serif;
+	color: #FFBF00;
+	font-size: 17px;
+	text-shadow: 1px 1px 1px #222222;
+}
+
+#title {
+	font-family: "Patua One", Impact, Charcoal, sans-serif;
+	color: #FFBF00;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px #222222;
+}
+
+#subtitle {
 	font-family: "Patua One", Impact, Charcoal, sans-serif;
 	color: #FFBF00;
 	font-size: 17px;

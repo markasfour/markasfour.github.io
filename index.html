@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="materialize.css"/>
 	<link href="main.css" rel="stylesheet">
+	<link href="loading.css" rel="stylesheet">
 	<link rel="shortcut icon" href="pics/favicon.ico">
 	
 	<script type="text/javascript" src="jquery-1.12.2.min.js"></script>
@@ -33,9 +34,9 @@
 <div id="load_screen">
 	<div id="loading" align="center">
 		<p>Loading</p>
-		<div class="progress">
-      		<div class="indeterminate"></div>
-  		</div>
+		<div id="loader-wrapper">
+    			<div id="loader"></div>
+		</div>
 	</div>
 </div>
 
@@ -95,10 +96,11 @@
 			<div>
 				<img id="me" src="pics/me.jpg" alt="Mark Asfour" width="250" height="250" />
 			</div>
-			<div id="content-container">
+			<div id="content-container" style="border-radius: 25px; border: 5px solid #FFFFFF;">
 				<div id="content-text">
-					<b>Welcome to my online portfolio.</b>
-					<p>I am an undergraduate student at the University of California, Riverside majoring in computer engineering. I have a passion for programming and am eager to learn everything necessary and more to master my field and to become a productive leader and an innovative engineer.</p>
+					<p id="welcome">Welcome to my online portfolio</p>
+					<p>University of California, Riverside - Computer Engineering</p>
+					<p>Bachelor's- Dec '16 - <i class="fa fa-graduation-cap"></i> - Master's- Dec '17<p>
 				</div>
 			</div>
 		</div>
@@ -116,9 +118,44 @@
 				</div>
 				<div id="content-text">
 					<p>
-						<p><b>Northrop Grumman Corporation</b> - College Technical Intern</p>
-						I supported Northrop Grumman's SAP ERP system by working with PI, ABAP, and WebDynpro. I developed an ABAP WebDynpro application to enhance and facilitate the creation of stock transport orders as well as conducted research on SAP Fiori and Personas for future company usage.</p>
+						<p><b>Northrop Grumman</b> - College Technical Intern - Software Development Analyst (Returning)</p>
 					</p>
+					<ul class="collapsible" data-collapsible="accordion">
+					    <li>
+					      <div class="collapsible-header">Details</div>
+					      <div class="collapsible-body">
+					     	<ul>
+							<li style="list-style-type: disc; margin-left: 50px;">Led interns in creating a Resource Manager tool using WebDynpro for managers to keep track of team members' work loads.</li> 
+							<li style="list-style-type: disc; margin-left: 50px;">Enhanced PI monitoring alert emails to include useful information clearly in the body and subject by reformatting and retrieving data from a separate database.</li>
+							<li style="list-style-type: disc; margin-left: 50px;">Developed a program to remove all zombie processes throughout all SAP systems and servers.</li>
+ 						<ul>
+					      </div>
+					    </li>	
+					</ul>
+				</div>
+			</div>
+
+			<div id="content-container-center-row">
+				<div>
+					<img src="pics/Northrop.jpg" alt="Northrop Grumman" width="100" height="100" style="border-radius: 5px; border: 4px solid #FFBF00; box-shadow: 1px 1px 1px #222222;"/>
+				</div>
+				<div id="content-text">
+					<p>
+						<p><b>Northrop Grumman</b> - College Technical Intern - Software Development Analyst</p>
+					</p>
+					<ul class="collapsible" data-collapsible="accordion">
+					    <li>
+					      <div class="collapsible-header">Details</div>
+					      <div class="collapsible-body">
+						<ul>
+							<li style="list-style-type: disc; margin-left: 50px;">Supported Northrop Grumman's SAP ERP system by working with PI, ABAP, and WebDynpro.</li> 
+							<li style="list-style-type: disc; margin-left: 50px;">Developed an ABAP WebDynpro application to facilitate the creation of stock transport orders that will be used in replacement of SAP's transaction ME21N.</li>
+							<li style="list-style-type: disc; margin-left: 50px;">Researched SAP Fiori and Personas for future company usage.</li>
+							<li style="list-style-type: disc; margin-left: 50px;">Collaborated with other interns in a group case study on how to bring diverse talent to a company.</li>
+ 						<ul>
+					      </div>
+					    </li>	
+					</ul>
 				</div>
 			</div>
 
@@ -129,8 +166,17 @@
 				<div id="content-text">
 					<p>
 						<p><b>Chaminade Eagle Business</b> - Webmaster & Designer</p>
-						I created and developed the entire <a href="https://sites.google.com/site/eaglebusinessprogram/">Eagle Business website</a> and continued to run and update the site as necessary while I was in Chaminade College Preparatory high school.
 					</p>
+					<ul class="collapsible" data-collapsible="accordion">
+					    <li>
+					      <div class="collapsible-header">Details</div>
+					      <div class="collapsible-body">
+						<ul>
+							<li style="list-style-type: disc; margin-left: 50px;">I created and developed the entire <a href="https://sites.google.com/site/eaglebusinessprogram/">Eagle Business website</a> and continued to run and update the site as necessary while I was in Chaminade College Preparatory high school.</li>
+						</ul>
+					      </div>
+					    </li>	
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -264,10 +310,7 @@
 			<p id="contact">Contact</p>
 		</div>
 		<div id="content-container-center">
-			<div id="content-text">
-				<p>
-					If you would like to contact me, feel free to refer to any of the links below. I am always ready to be part of a meaningful cause and am ready to lead to achieve all goals.
-				</p>
+			<div id="content-text" style="padding-top: 15px;">
 				<div id="nav-link-container">
 					<div id="nav-link">
 						<a href="https://linkedin.com/in/markasfour">
@@ -285,6 +328,9 @@
 						</a>
 					</div>
 				</div>
+			</div>
+			<div id="content-text" style="text-align: center;">
+				<p>Please contact me for more information</p>	
 			</div>
 		</div>
 
@@ -318,6 +364,11 @@
 $(document).ready(function(){
       $('.parallax').parallax();
 });
+$(document).ready(function(){
+    $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    });
+  });
 </script>
 </body>
 </html>
