@@ -22,7 +22,7 @@ body {
 	width: 100%;
 	height: 5px;
 	position: relative;
-	top: 45%;
+	top: 50%;
 	text-align: center;
 	font-size: 25px;
 }
@@ -82,7 +82,7 @@ body {
 }
 
 #top-link-image {
-	border-radius: 40px 40px 40px 40px;
+	border-radius: 50px;
 	box-shadow: 1px 1px 1px #222222;
 }
 
@@ -153,7 +153,7 @@ body {
 #welcome {
 	font-family: "Patua One", Impact, Charcoal, sans-serif;
 	color: #FFBF00;
-	font-size: 30px;
+	font-size: 45px;
 	text-shadow: 1px 1px 1px #222222;
 }
 
@@ -161,7 +161,7 @@ body {
 	background-color: #8A8A8A;
 	background-image: linear-gradient(to right, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));
 	width: 100%;
-	padding: 30px 0;
+	padding: 40px 0;
 }
 
 #experience-text {
@@ -258,7 +258,6 @@ body {
 	background-color: #8A8A8A;
 	background-image: linear-gradient(to right, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));
 	width: 100%;
-	height: 300px;
 	padding: 40px 0;
 }
 
@@ -302,10 +301,14 @@ b {
 }
 
 #title {
+	display: block;
+	margin: 0 auto;
+	width: 80%;	
 	font-family: "Patua One", Impact, Charcoal, sans-serif;
 	color: #FFBF00;
-	font-size: 30px;
+	font-size: 45px;
 	text-shadow: 1px 1px 1px #222222;
+	text-align: center;
 }
 
 #subtitle {

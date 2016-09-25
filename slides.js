@@ -7,8 +7,8 @@ $(".slider-projects").slick({
 	autoplay: true,
 	autoplaySpeed: 8000,
 	infinite: true,
-	speed: 500,
-	responsive: [{
+	speed: 500
+	/*responsive: [{
 		breakpoint: 800,
 		settings: {
 			centerMode: false,
@@ -21,7 +21,7 @@ $(".slider-projects").slick({
 			infinite: true,
 			speed: 500,
 		}
-	}]
+	}]*/
 });	
 
 $(".slider-skills").slick({
@@ -53,6 +53,41 @@ $(".slider-skills").slick({
 			slide: 'div',
 			cssEase: 'linear',
 			pauseOnHover: false
+		}
+	}]
+});
+
+$(".slider-skills-bot").slick({
+	centerMode: true,
+	centerPadding: '10px',
+	variableWidth: true,
+	slidesToShow: 5,
+	dots: false,
+	arrows: false,
+	autoplay: true,
+	autoplaySpeed: 0,
+	infinite: true,
+	speed: 4000,
+	slide: 'div',
+	cssEase: 'linear',
+	pauseOnHover: false,
+	rtl: true,
+	responsive: [{
+		breakpoint: 800,
+		settings: {
+			centerMode: false,
+			dots: false,
+			variableWidth: true,
+			slidesToShow: 5,
+			arrows: false,
+			autoplay: true,
+			autoplaySpeed: 0,
+			infinite: true,
+			speed: 4000,
+			slide: 'div',
+			cssEase: 'linear',
+			pauseOnHover: false,
+			rtl: true,
 		}
 	}]
 });
