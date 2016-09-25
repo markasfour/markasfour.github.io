@@ -108,9 +108,9 @@ body {
 
 #nav-link > a {
 	text-decoration: none;
-	font-family: Arial, sans-serif;
+	font-family: sans-serif;
 	color: #222222;
-	font-size: 12px;
+	font-size: 16px;
 	text-shadow: 1px 1px 1px #444444;
 }
 
@@ -204,7 +204,7 @@ body {
 	color: #FFBF00;
 }
 
-#projects {
+/*#projects {
 	display: block;
 	margin: 0 auto;
 	padding: 20px 0 10px;
@@ -213,7 +213,7 @@ body {
 	color: #FFBF00;
 	font-size: 30px;
 	text-shadow: 1px 1px 1px #222222;
-}
+}*/
 
 #project-slides {
 	background-color: rgba(56, 58, 59, .9);
@@ -271,7 +271,7 @@ body {
 	text-shadow: 1px 1px 1px #222222;
 }
 
-#contact {
+/*#contact {
 	display: block;
 	margin: 0 auto;
 	padding: 20px 0 10px;
@@ -280,7 +280,7 @@ body {
 	color: #FFBF00;
 	font-size: 30px;
 	text-shadow: 1px 1px 1px #222222;
-}
+}*/
 
 #footer {
 	padding: 15px;

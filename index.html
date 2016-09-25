@@ -88,7 +88,7 @@
 	</header>
 
 	<!--INTRO AREA-->
-	<div class="parallax-container">
+	<div class="parallax-container" class="section scrollspy" id="home">
 		<div class="parallax">
 			<img src="pics/top.jpeg">
 		</div>
@@ -107,7 +107,7 @@
 	</div>
 	
 	<!--EXPERIENCE-->
-	<div id="experience">
+	<div id="experience" class="section scrollspy">
 		<div>
 			<p id="title">Experience</p>
 		</div>
@@ -233,7 +233,7 @@
 
 
 	<!--PROJECTS-->
-	<div class="parallax-container">
+	<div class="parallax-container" class="section scrollspy" id="projects">
 		<div class="parallax">
 			<img src="pics/mid.jpg">
 		</div>
@@ -278,7 +278,7 @@
 	</div>
 
 	<!--SKILLS-->
-	<div id="skills">
+	<div id="skills" class="section scrollspy">
 		<div>
 			<p id="title">Skills</p>
 		</div>
@@ -397,7 +397,7 @@
 	</div>
 
 	<!--CONTACT-->
-	<div class="parallax-container">
+	<div class="parallax-container" class="section scrollspy" id="contact">
 		<div class="parallax">
 			<img src="pics/bot.jpg">
 		</div>
@@ -463,6 +463,9 @@ $(document).ready(function(){
     $('.collapsible').collapsible({
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
     });
+  });
+$(document).ready(function(){
+    $('.scrollspy').scrollSpy();
   });
 </script>
 </body>
