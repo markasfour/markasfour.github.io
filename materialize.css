@@ -5144,12 +5144,13 @@ a.waves-effect .waves-ripple {
 }
 
 .collapsible-header:after {
-    content: '\02795';
+    content: '+';
     float: right;
+    font-weight: bold;
 }
 
 .collapsible-header.active:after {
-    content: '\02796';
+    content: '-';
 }
 
 .collapsible-body {
