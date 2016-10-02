@@ -5143,6 +5143,15 @@ a.waves-effect .waves-ripple {
     margin-right: 1rem
 }
 
+.collapsible-header:after {
+    content: '\02795';
+    float: right;
+}
+
+.collapsible-header.active:after {
+    content: '\02796';
+}
+
 .collapsible-body {
     display: none;
     border-bottom: 1px solid #ddd;
