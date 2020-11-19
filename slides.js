@@ -2,12 +2,11 @@ $(".slider-projects").slick({
 	centerMode: true,
 	slidesToShow: 3,
 	variableWidth: true,
-	dots: true,
-	arrows: true,
+	dots: false,
+	arrows: false,
 	autoplay: true,
 	autoplaySpeed: 8000,
 	infinite: true,
-	speed: 500
 	/*responsive: [{
 		breakpoint: 800,
 		settings: {
