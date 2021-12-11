@@ -4,8 +4,13 @@
 <head>
 	<title>Mark Asfour</title>
 	
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" type="text/css">
+     
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="materialize.css"/>
@@ -67,24 +72,6 @@
 				</a>
 			</div>
 		</header>
-		<!--SITE LINKS-->
-		<div id="nav-link-container">
-			<div id="nav-link">
-				<a href="#home">Home</a>
-			</div>
-			<div id="nav-link">
-				<a href="#experience">Experience</a>
-			</div>
-			<div id="nav-link">
-				<a href="#projects">Projects</a>
-			</div>
-			<div id="nav-link">
-				<a href="#skills">Skills</a>
-			</div>
-			<div id="nav-link">
-				<a href="#contact">Contact</a>
-			</div>
-		</div>
 	</header>
 
 	<!--INTRO AREA-->
@@ -93,16 +80,19 @@
 			<img src="pics/top.jpeg">
 		</div>
 		<div id="intro-header">
-			<div>
-				<img class="circle" id="me" src="pics/me.PNG" alt="Mark Asfour" width="250" height="250" />
-			</div>
 			<div id="content-container" style="border-radius: 25px; border: 5px solid #FFFFFF;">
-				<div id="content-text">
-					<p id="title">Welcome to my online portfolio</p>
-					<p><b>Northrop Grumman</b> - Software Engineer</p>
-					<p>SAP - <i class="fa fa-desktop"></i> - RPA - <i class="fa fa-robot"></i> - Scrum Master - <i class="fa fa-award"></i></p>
-					<p><b>University of California, Riverside</b> - Computer Engineering</p>
-					<p>Bachelor's- Dec '16 - <i class="fa fa-graduation-cap"></i> - Master's- Dec '17 - <i class="fa fa-graduation-cap"></i><p>
+				<div>
+				    <img class="circle" id="me" src="pics/me.PNG" alt="Mark Asfour" width="250" height="250" />
+			    </div>
+                <div id="content-text">
+					<p id="title">Mark Asfour</p>
+                    <p><b>Northrop Grumman</b> - Principal Software Engineer</p>
+                    <hr/>
+                    <p><b>Pepperdine University</b></p>
+                    <p><i class="fa fa-graduation-cap"></i> Master of Business Administration - Apr '23</p>
+					<p><b>University of California, Riverside</b></p>
+                    <p><i class="fa fa-graduation-cap"></i> M.S. Computer Engineering - Dec '17</p>
+                    <p><i class="fa fa-graduation-cap"></i> B.S. Computer Engineering - Dec '16 - <i>Magna Cum Laude</i></p>
 				</div>
 			</div>
 		</div>
@@ -115,10 +105,49 @@
 		</div>
 		<div id="content-container-center">
 
-
-		<div id="content-container-center-row">
+            <div id="content-container-center-row">
 				<div>
-					<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFnJf3Nn259IA/company-logo_200_200/0?e=2159024400&v=beta&t=6MGEzJHckmaJcL9qd46Qb_OsSOLbA_LaW93FisjOwl8" alt="Northrop Grumman" width="100" height="100" class="circle" style="border: 4px solid #FFBF00; box-shadow: 1px 1px 1px #222222;"/>
+					<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFnJf3Nn259IA/company-logo_200_200/0?e=2159024400&v=beta&t=6MGEzJHckmaJcL9qd46Qb_OsSOLbA_LaW93FisjOwl8" alt="Northrop Grumman" width="100" height="100" class="circle" style="border: 4px solid #FFBF00; box-shadow: 1px 1px 1px #222222;" onclick="document.getElementById(&quot;exp1&quot;).click()"/>
+				</div>
+				<div id="content-text">
+					<p>
+						<p><b>Northrop Grumman</b> - Principal Software Development Analyst</p>
+					</p>
+					<ul class="collapsible" data-collapsible="accordion">
+					    <li>
+					      <div id="exp1" class="collapsible-header">Details</div>
+					      <div class="collapsible-body">
+					     	<table style="width: 100%;">
+						<tr style="border-bottom: 1px solid #fff;">
+							<td style="width:20px; text-align: center;"><b><i class="fa fa-calendar"></i></b></td>
+							<td style="padding-left: 50px">Start: January '18</td>
+							<td style="padding-left: 50px">Present</td>
+						</tr>
+						<tr style="border-bottom: 1px solid #fff;">
+							<td style="width:20px; text-align: center;"><b><i class="fa fa-briefcase"></i></b></td>
+							<td colspan=2>
+								<ul>			
+									<li style="list-style-type: disc; margin-left: 50px;">Created a complete suite of Flight Operations web and mobile applications using SAP Fiori, ABAP, and Gateway to modernize the entire technical conduct of operations for the department with a centralized database system, a web and mobile user interfaces, and a standardized communication system.</li>
+									<li style="list-style-type: disc; margin-left: 50px;">Led development team as scrum master to create an ERP Development Collaboration Site.</li>
+									<li style="list-style-type: disc; margin-left: 50px;">Formalized Continuous Delivery/Continuous Deployment (CI/CD) pipeline for our SAP web and mobile team.</li>
+									
+								<ul>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:20px; text-align: center;"><b><i class="fa fa-map-marker"></i></b></td>
+							<td colspan=2 style="padding-left: 50px">El Segundo, California</td>
+						</tr>
+						</table>
+					      </div>
+					    </li>	
+					</ul>
+				</div>
+			</div>
+
+		    <div id="content-container-center-row">
+				<div>
+					<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFnJf3Nn259IA/company-logo_200_200/0?e=2159024400&v=beta&t=6MGEzJHckmaJcL9qd46Qb_OsSOLbA_LaW93FisjOwl8" alt="Northrop Grumman" width="100" height="100" class="circle" style="border: 4px solid #FFBF00; box-shadow: 1px 1px 1px #222222;" onclick="document.getElementById(&quot;exp2&quot;).click()"/>
 				</div>
 				<div id="content-text">
 					<p>
@@ -126,7 +155,7 @@
 					</p>
 					<ul class="collapsible" data-collapsible="accordion">
 					    <li>
-					      <div class="collapsible-header">Details</div>
+					      <div id="exp2" class="collapsible-header">Details</div>
 					      <div class="collapsible-body">
 					     	<table style="width: 100%;">
 						<tr style="border-bottom: 1px solid #fff;">
@@ -162,9 +191,9 @@
 				</div>
 			</div>
 
-            	<div id="content-container-center-row">
+            <div id="content-container-center-row">
 				<div>
-					<img src="https://media-exp1.licdn.com/dms/image/C560BAQE2uYWsiuAkgw/company-logo_200_200/0/1592117959778?e=2159024400&v=beta&t=XgtTcsnlXo3dYRcrqZqhCHiryeJsJKqPH6efJUb2W7c" alt="University of California, Riverside" width="100" height="100" class="circle" style="border: 4px solid #FFBF00; box-shadow: 1px 1px 1px #222222;"/>
+					<img src="https://media-exp1.licdn.com/dms/image/C560BAQE2uYWsiuAkgw/company-logo_200_200/0/1592117959778?e=2159024400&v=beta&t=XgtTcsnlXo3dYRcrqZqhCHiryeJsJKqPH6efJUb2W7c" alt="University of California, Riverside" width="100" height="100" class="circle" style="border: 4px solid #FFBF00; box-shadow: 1px 1px 1px #222222;" onclick="document.getElementById(&quot;exp3&quot;).click()"/>
 				</div>
 				<div id="content-text">
 					<p>
@@ -172,7 +201,7 @@
 					</p>
 					<ul class="collapsible" data-collapsible="accordion">
 					    <li>
-					      <div class="collapsible-header">Details</div>
+					      <div id="exp3" class="collapsible-header">Details</div>
 					      <div class="collapsible-body">
 						<table style="width: 100%;">
 						<tr style="border-bottom: 1px solid #fff;">
@@ -207,7 +236,7 @@
 
 			<div id="content-container-center-row">
 				<div>
-					<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFnJf3Nn259IA/company-logo_200_200/0?e=2159024400&v=beta&t=6MGEzJHckmaJcL9qd46Qb_OsSOLbA_LaW93FisjOwl8" alt="Northrop Grumman" width="100" height="100" class="circle" style="border: 4px solid #FFBF00; box-shadow: 1px 1px 1px #222222;"/>
+					<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFnJf3Nn259IA/company-logo_200_200/0?e=2159024400&v=beta&t=6MGEzJHckmaJcL9qd46Qb_OsSOLbA_LaW93FisjOwl8" alt="Northrop Grumman" width="100" height="100" class="circle" style="border: 4px solid #FFBF00; box-shadow: 1px 1px 1px #222222;" onclick="document.getElementById(&quot;exp4&quot;).click()"/>
 				</div>
 				<div id="content-text">
 					<p>
@@ -215,7 +244,7 @@
 					</p>
 					<ul class="collapsible" data-collapsible="accordion">
 					    <li>
-					      <div class="collapsible-header">Details</div>
+					      <div id="exp4" class="collapsible-header">Details</div>
 					      <div class="collapsible-body">
 					     	<table style="width: 100%;">
 						<tr style="border-bottom: 1px solid #fff;">
@@ -251,7 +280,7 @@
 			
 			<div id="content-container-center-row">
 				<div>
-					<img src="pics/Chaminade.png" alt="Chaminade Eagle Business" width="100" height="100" class="circle" style="border: 4px solid #FFBF00; box-shadow: 1px 1px 1px #222222;"/>
+					<img src="pics/Chaminade.png" alt="Chaminade Eagle Business" width="100" height="100" class="circle" style="border: 4px solid #FFBF00; box-shadow: 1px 1px 1px #222222;" onclick="document.getElementById(&quot;exp5&quot;).click()"/>
 				</div>
 				<div id="content-text">
 					<p>
@@ -259,7 +288,7 @@
 					</p>
 					<ul class="collapsible" data-collapsible="accordion">
 					    <li>
-					      <div class="collapsible-header">Details</div>
+					      <div id="exp5" class="collapsible-header">Details</div>
 					      <div class="collapsible-body">
 						<table style="width: 100%;">
 						<tr style="border-bottom: 1px solid #fff;">
@@ -298,7 +327,8 @@
 		<div>
 			<p id="title">Projects</p>
 		</div>
-		<!--SLIDES-->
+      
+        <!--SLIDES-->
 		<div id="project-slides">
 		<section class="slider-projects">
 		<div>
@@ -338,7 +368,7 @@
 	<!--SKILLS-->
 	<div id="skills" class="section scrollspy">
 		<div>
-			<p id="title">Skills</p>
+			<p id="title">Certifications & Skills</p>
 		</div>
 		<div id="content-container-center">
 			<div> 
