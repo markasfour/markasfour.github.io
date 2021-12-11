@@ -1,5 +1,5 @@
 body {
-    background-color: #000545;
+    background-color: #0E6078;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -64,7 +64,6 @@ body {
 }
 
 #logo-container {
-	width: 250px;
 	height: 30px;
 	text-align: left;
 	font-family: "Patua One", Impact, Charcoal, sans-serif;
